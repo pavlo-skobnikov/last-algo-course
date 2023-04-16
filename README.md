@@ -11,5 +11,5 @@ decided to implement required problems in Java.
 
 - [/src/docs/basics](/src/docs/basics) contains notes.
 - [/src/main](/src/main) contains main implementations for course challenges.
-- [/src/docs/basics](/src/docs/basics) contains tests that I came up with to test the
+- [/src/test](/src/test) contains tests that I came up with to test the
   implementations.

@@ -1,5 +1,10 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'Main'
 }
 
 group = 'pavlo.skobnikov'
@@ -16,4 +21,9 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+sourceSets {
+  main.java.srcDirs = [ 'src/java/main/java' ]
+  test.java.srcDirs = [ 'src/java/test/java' ]
 }
